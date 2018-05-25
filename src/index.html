@@ -6,9 +6,35 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-
   <div id="root"></div>
+  
+  <div class = "Title">
+    <img src="http://www.clker.com/cliparts/o/g/E/R/t/u/laurel-wreath-gold-md.png" alt="Corona de Laurel">
+    <h1> CIFRADO CESAR </h1>
+  </div>
+  <h2> Este es un sitio para mensajes... ;) </h2>
 
+  <div class = "Codificar">
+      <h3> ¿Quieres codificar un mensaje? </h3>
+      <select name = "llave">
+          <option value="1">Llave 1</option>
+          <option value="2">Llave 2</option>
+          <option value="3">Llave 3</option>
+          <option value="4">Llave 4</option>
+      </select>
+  </div>
+  
+  <div class = "Cifrado1">
+    <textarea class = "messageNatural1" name="message1" rows="5" cols="30" placeholder= "Escriba su mensaje para codificar aqui..."></textarea>
+    <button onclick="Change()">Transfórmalo!</button>
+    <textarea class = "messageCode1" name="message2" rows="5" cols="30"></textarea>
+  </div>
+  <h3> ¿Quieres decodificar un mensaje? </h3>
+  <div>
+    <textarea class = "messageNatural2" name="message1" rows="5" cols="30" placeholder= "Escriba su mensaje para decodificar aqui..."></textarea>
+    <button onclick="Change()">Decodifícalo!</button>
+    <textarea class = "messageCode2" name="message2" rows="5" cols="30"></textarea>
+  </di>
   <script src="cipher.js"></script>
   <script src="index.js"></script>
 </body>
