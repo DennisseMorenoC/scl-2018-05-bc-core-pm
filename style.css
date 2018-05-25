@@ -1,1 +1,98 @@
-/* Acá va tu código */
+.Title{
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+    height: 120px;
+    text-align: center;
+}
+h1 {
+    text-align: center;
+    font-weight: bold;
+    font-family: sans-serif;
+    color: #370917;
+    height:100px;
+    margin-right: auto;
+    margin-left: auto;
+    overflow: auto;
+}
+img{
+  width: 100px;
+  float: inherit;  
+}
+h2{
+  text-align: center;
+  padding: 20px;
+  font-weight: lighter;
+  font-family: sans-serif;
+  background-color: #7D1128;
+  color: white;
+  height: 20px;
+  margin-top: 50px;
+}
+h3{
+  text-align: center;
+  padding: 10px;
+  font-weight: lighter;
+  font-family: sans-serif;
+  background-color: #C41E3D;
+  color: white;
+  margin-top: 50px;
+  width: 970px;
+  height: 15px;
+  margin-left: 150px;
+}
+.llave{
+  margin-right: auto;
+  margin-left: auto;
+}
+.cifrado1{
+  vertical-align: center;
+}
+.messageNatural1{
+  width: 400px;
+  height: 200px;
+  padding: 10px;
+  font-family: sans-serif;
+  margin-top: 8px;
+  margin-left: 150px;
+}
+.messageCode1{
+  width: 400px;
+  height: 200px;
+  
+  padding: 10px;
+  font-family: sans-serif;
+  margin-top: 8px;
+}
+button{
+  border: 2px solid #FF2C55;
+  background-color: #F05523;
+  color:white;
+  padding: 12px;
+  font-weight: bold;
+  font-size: 15px;
+  width: 130px;
+  height: 50px;
+  margin: auto;
+  overflow: auto;
+  position: relative;
+  top: -100px;
+}
+
+.messageNatural2{
+  width: 400px;
+  height: 200px;
+  
+  padding: 10px;
+  font-family: sans-serif;
+  margin-top: 8px;
+  margin-left: 150px;
+}
+.messageCode2{
+  width: 400px;
+  height: 200px;
+  
+  padding: 10px;
+  font-family: sans-serif;
+  margin-top: 8px;
+}
