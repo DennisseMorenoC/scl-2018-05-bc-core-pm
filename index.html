@@ -18,7 +18,7 @@
       <h3> ¿Quieres codificar un mensaje? </h3>
       <h4> Seleccione cuantas casillas desea moverse</h4>
       <div class = "options">
-          <select name = "llave">
+          <select id="llave">
               <option value="" >Seleccione</option>
               <option value="1">Mover 1 Espacios</option>
               <option value="2">Mover 2 Espacios</option>
@@ -28,16 +28,16 @@
       </div>
   </div>
   
-  <div class = "Cifrado1">
-    <textarea class = "messageNatural1" name="message1" rows="5" cols="30" placeholder= "Escriba su mensaje para codificar aqui..."></textarea>
-    <button onclick="Change()">Transfórmalo!</button>
-    <textarea class = "messageCode1" name="message2" rows="5" cols="30"></textarea>
+  <div class="Cifrado1">
+    <textarea id="messageNatural1" name="message1" rows="5" cols="30" placeholder= "ESCRIBA SU MENSAJE PARA CODIFICAR AQUI..."></textarea>
+    <button id="codificar" onclick="encode()">Transfórmalo!</button>
+    <textarea id = "messageCode1" name="message2" rows="5" cols="30"></textarea>
   </div>
   <h3> ¿Quieres decodificar un mensaje? </h3>
   <div>
-    <textarea class = "messageCode2" name="message1" rows="5" cols="30" placeholder= "Escriba su mensaje para decodificar aqui..."></textarea>
-    <button onclick="Change()">Decodifícalo!</button>
-    <textarea class = "messageNatural2" name="message2" rows="5" cols="30"></textarea>
+    <textarea id = "messageCode2" name="message1" rows="5" cols="30" placeholder= "ESCRIBA SU MENSAJE PARA DECODIFICAR AQUI..."></textarea>
+    <button id = "decodificar" onclick="decode()">Decodifícalo!</button>
+    <textarea id = "messageNatural2" name="message2" rows="5" cols="30"></textarea>
   </di>
   <script src="cipher.js"></script>
   <script src="index.js"></script>
