@@ -17,6 +17,7 @@ function encode (){
             let form = (upperCase.charCodeAt(i)-65+spaceNumber)%26+65
             codeFrase += String.fromCharCode(form); 
             document.getElementById("messageCode1").innerHTML = codeFrase;
+            
         }
         //let form = (normalFrase.toUpperCase().charCodeAt(i)-65+spaceNumber)%26+65;
         //codeFrase += String.fromCharCode(form); 
