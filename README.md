@@ -19,22 +19,18 @@ Un ejemplo más concreto es al codificar una palabra:
 - Vamos viendo letra por letra, partiendo por la H
 - H I J K L 
 - ^ ^ ^ ^ ^
-- | | | | |
 - 0 1 2 3 4 Siendo la H replazada por una L
 - Siguiente letra O
 - O P Q R S
 - ^ ^ ^ ^ ^
-- | | | | |
 - 0 1 2 3 4 La O queda remplazada por una S
 - Luego L
 - L M N O P
-- ^ ^ ^ ^
-- | | | | |
+- ^ ^ ^ ^ ^
 - 0 1 2 3 4 La letra L pasa a ser P
 - Y por último la A
 - A B C D E
 - ^ ^ ^ ^ ^
-- | | | | |
 - 0 1 2 3 4 Quedano como E
 
 - Esto lleva a convertir el mensajse desde un HOLA a => LSPE. Dependiendo de la cantidad de espacios que queremos movernos hacia el costado.
