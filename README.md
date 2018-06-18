@@ -7,7 +7,8 @@ Como ejemplo se indica que:
 - Alfabeto normal : A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
 - Decidimos un número que indica cuantos movimientos nos vamos a desplazar, elegiremos el número 4
 - Quedando alfabeto codificiado como : E F G H I J K L M N O P Q R S T U V W X Y Z A B C D
-- Puesto que en éste caso nos corremos 4 espacios hacia el lado A B C D E
+- Puesto que en éste caso nos corremos 4 espacios hacia el lado
+-                                                               A B C D E
 -                                                               ^ ^ ^ ^ ^ 
 -                                                               0 1 2 3 4
 - Por lo que el alfabeto codificado inicia con la letra E y continuamos escribiendo el alfabeto hasta incluir todas las letras.
