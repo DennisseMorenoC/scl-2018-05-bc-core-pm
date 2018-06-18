@@ -34,6 +34,7 @@ window.cipher = {
         //    decodeFrase += String.fromCharCode(form2);
         //console.log(decodeFrase);   
     }
-    
+    return decodeFrase;
   }
+  
 }
