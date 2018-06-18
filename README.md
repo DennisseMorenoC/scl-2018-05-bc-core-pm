@@ -17,10 +17,10 @@ Un ejemplo más concreto es al codificar una palabra:
 - Una palabra si cifrar es H O L A
 - Elegimos 4 como espacios a mover
 - Vamos viendo letra por letra, partiendo por la H
-        H I J K L 
-        ^ ^ ^ ^ ^
-        | | | | |
-        0 1 2 3 4 Siendo la H replazada por una L
+  ------H I J K L 
+  ------^ ^ ^ ^ ^
+  ------| | | | |
+  ------0 1 2 3 4 Siendo la H replazada por una L
 - Siguiente letra O
         O P Q R S
         ^ ^ ^ ^ ^
